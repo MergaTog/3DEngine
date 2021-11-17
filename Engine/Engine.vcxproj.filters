@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Sources\Audio">
+      <UniqueIdentifier>{a869baba-c332-4006-93c1-b5dcbd8ecf1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Core">
+      <UniqueIdentifier>{00963b15-0e1b-4f55-8124-162bbe9c3749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Framework">
+      <UniqueIdentifier>{383d62bf-187e-433f-a293-24d3e036ea50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Input">
+      <UniqueIdentifier>{17138333-343f-4459-9f9e-4bed654791a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Math">
+      <UniqueIdentifier>{c7864cb2-83e5-406e-b3ee-e2e08a2d4e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Graphics">
+      <UniqueIdentifier>{28fd0fd4-5d54-4b09-945d-58703f003aa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Object">
+      <UniqueIdentifier>{e670bf25-a0de-473b-9447-3c6cca30db11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Component">
+      <UniqueIdentifier>{3adb4b4e-1691-4180-a85d-21543906838f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Resource">
+      <UniqueIdentifier>{05e5cb78-3e1f-4044-ae11-2550e88369ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\FileSystem.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\EventSystem.cpp">
+      <Filter>Sources\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Renderer.cpp">
+      <Filter>Sources\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Actor.cpp">
+      <Filter>Sources\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Scene.cpp">
+      <Filter>Sources\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Texture.cpp">
+      <Filter>Sources\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Random.cpp">
+      <Filter>Sources\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Transform.cpp">
+      <Filter>Sources\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputSystem.cpp">
+      <Filter>Sources\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Timer.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\AudioSystem.cpp">
+      <Filter>Sources\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\AudioChannel.cpp">
+      <Filter>Sources\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Utils.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\PhysicsComponent.cpp">
+      <Filter>Sources\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Json.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\AudioComponent.cpp">
+      <Filter>Sources\Component</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\FileSystem.h">
+      <Filter>Sources\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Renderer.h">
+      <Filter>Sources\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\EventSystem.h">
+      <Filter>Sources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\System.h">
+      <Filter>Sources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Actor.h">
+      <Filter>Sources\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Object.h">
+      <Filter>Sources\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Scene.h">
+      <Filter>Sources\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Texture.h">
+      <Filter>Sources\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MathUtils.h">
+      <Filter>Sources\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Random.h">
+      <Filter>Sources\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Transform.h">
+      <Filter>Sources\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputSystem.h">
+      <Filter>Sources\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Timer.h">
+      <Filter>Sources\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\AudioSystem.h">
+      <Filter>Sources\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\AudioChannel.h">
+      <Filter>Sources\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Utils.h">
+      <Filter>Sources\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Component.h">
+      <Filter>Sources\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\GraphicsComponent.h">
+      <Filter>Sources\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\PhysicsComponent.h">
+      <Filter>Sources\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Singleton.h">
+      <Filter>Sources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Factory.h">
+      <Filter>Sources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Json.h">
+      <Filter>Sources\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Serializable.h">
+      <Filter>Sources\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\AudioComponent.h">
+      <Filter>Sources\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MathTypes.h">
+      <Filter>Sources\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Resource.h">
+      <Filter>Sources\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\ResourceSystem.h">
+      <Filter>Sources\Resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
