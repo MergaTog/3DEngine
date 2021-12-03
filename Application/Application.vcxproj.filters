@@ -22,4 +22,42 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Build\Resources\shaders\basic.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Build\Resources\shaders\basic.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Build\Resources\materials\wood.mtl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Build\Resources\shaders\goraud.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Build\Resources\shaders\goraud.shdr">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Build\Resources\shaders\goraud.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Build\Resources\shaders\flat.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Build\Resources\shaders\flat.shdr">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Build\Resources\shaders\flat.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Build\Resources\shaders\phong.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Build\Resources\shaders\phong.shdr">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Build\Resources\shaders\phong.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>

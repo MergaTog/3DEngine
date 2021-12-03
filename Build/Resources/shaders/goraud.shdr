@@ -1,0 +1,4 @@
+{
+"vertex_shader": "shaders/goraud.vert",
+"fragment_shader": "shaders/goraud.frag"
+}

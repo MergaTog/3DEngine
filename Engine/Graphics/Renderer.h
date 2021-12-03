@@ -1,10 +1,10 @@
 #pragma once
 #include "Framework/System.h"
 #include "Math/Transform.h"
-#include "Texture.h"
-#include "Math/MathTypes.h"
+
 #include "SDL.h"
 #include <string>
+#include <glad/glad.h>
 
 namespace nc
 {
@@ -22,7 +22,7 @@ namespace nc
 		friend class Texture;
 
 	private:
-		SDL_Renderer* renderer{ nullptr };
+		SDL_GLContext context;
 		SDL_Window* window{ nullptr };
 	};
 }
